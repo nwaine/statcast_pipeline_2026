@@ -2,9 +2,8 @@
 
 End-to-end R pipeline for building and maintaining a local MLB Statcast database using Baseball Savant data.
 
----
-
 ## Overview
+
 
 This project provides a lightweight data pipeline that:
 
@@ -15,7 +14,10 @@ This project provides a lightweight data pipeline that:
 
 ---
 
+
 ## How It Works
+=======
+
 
 ### Initial Run
 - Pulls full-season Statcast data (season start → yesterday)
@@ -29,7 +31,9 @@ This project provides a lightweight data pipeline that:
 
 ---
 
+
 ## Project Structure
+=======
 
 ```
 statcast_pipeline_2026/
@@ -42,7 +46,9 @@ statcast_pipeline_2026/
 
 ---
 
+
 ## Setup
+=======
 
 Install required packages:
 
@@ -56,7 +62,10 @@ install.packages(c("dplyr", "DBI", "RSQLite", "parallel", "tictoc"))
 
 ---
 
+
 ## Running the Pipeline
+=======
+
 
 From R:
 
@@ -69,7 +78,10 @@ source("statcast_pipeline.R")
 
 ---
 
+
 ## Example Queries
+=======
+
 
 ### SQL
 
@@ -108,7 +120,10 @@ dbDisconnect(con)
 
 ---
 
+
 ## Notes
+=======
+
 
 - Deduplication key:
   game_id + at_bat_number + pitch_number
@@ -119,13 +134,19 @@ dbDisconnect(con)
 
 ---
 
+
 ## Data Sources
+=======
+
 
 - Baseball Savant (Statcast)
 - MLB Stats API
 
 ---
 
+
 ## Author
+=======
+
 
 Nick Waine
