@@ -5,6 +5,9 @@ library(RSQLite)
 library(parallel)
 library(tictoc)
 
+# Use 'install.packages('libraryname')' to download any missing libraries, then
+# run 'library(libraryname)'
+
 # -----------------------------
 # SETTINGS
 # -----------------------------
