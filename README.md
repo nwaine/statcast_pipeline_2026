@@ -108,7 +108,7 @@ dbDisconnect(con)
 
 ---
 
-## ⚡ Notes
+## Notes
 
 - Deduplication key:
   game_id + at_bat_number + pitch_number
@@ -119,7 +119,7 @@ dbDisconnect(con)
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 - Baseball Savant (Statcast)
 - MLB Stats API
